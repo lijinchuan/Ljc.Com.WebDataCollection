@@ -34,7 +34,7 @@
         "ESBServer": "127.0.0.1",
         "ESBPort": "20000",
         "pythonsearchpaths": "E:\\Work\\Code\\newsvn\\Payment\\BigData\\DataSelfService\\Code\\Ljc.Com.WebDataCollection\\Ljc.Com.WebDataCollection.PyLib\\Ljc.Com.WebDataCollection.PyLib,C:\\Python27\\Lib,C:\\Python27\\DLLs,C:\\Python27\\Lib\\site-packages",
-        "StrategyCodeDir": "E:\\Work\\Code\\newsvn\\Payment\\BigData\\DataSelfService\\Code\\Ljc.Com.WebDataCollection\\Ljc.Com.WebDataCollection.PyLib\\Ljc.Com.WebDataCollection.PyLib",
+        "StrategyCodeDir": "D:\\GitHub\\Ljc.Com.WebDataCollection\\Ljc.Com.WebDataCollection.PyLib\\Ljc.Com.WebDataCollection.PyLib",
         "PythonPath": "C:\\Python27\\python.exe"
     },
     "zptest": {

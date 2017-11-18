@@ -1,0 +1,9 @@
+D:\GitHub\Ljc.Com.WebDataCollection\Ljc.Com.WebDataCollection.Web\Ljc.Com.WebDataCollection.Model\bin\Debug\Ljc.Com.WebDataCollection.Model.dll
+D:\GitHub\Ljc.Com.WebDataCollection\Ljc.Com.WebDataCollection.Web\Ljc.Com.WebDataCollection.Model\bin\Debug\Ljc.Com.WebDataCollection.Model.pdb
+D:\GitHub\Ljc.Com.WebDataCollection\Ljc.Com.WebDataCollection.Web\Ljc.Com.WebDataCollection.Model\bin\Debug\LJC.FrameWork.Data.Mongo.dll
+D:\GitHub\Ljc.Com.WebDataCollection\Ljc.Com.WebDataCollection.Web\Ljc.Com.WebDataCollection.Model\bin\Debug\MongoDB.Bson.dll
+D:\GitHub\Ljc.Com.WebDataCollection\Ljc.Com.WebDataCollection.Web\Ljc.Com.WebDataCollection.Model\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\Ljc.Com.WebDataCollection\Ljc.Com.WebDataCollection.Web\Ljc.Com.WebDataCollection.Model\bin\Debug\MongoDB.Driver.dll
+D:\GitHub\Ljc.Com.WebDataCollection\Ljc.Com.WebDataCollection.Web\Ljc.Com.WebDataCollection.Model\obj\Debug\Ljc.Com.WebDataCollection.Model.dll
+D:\GitHub\Ljc.Com.WebDataCollection\Ljc.Com.WebDataCollection.Web\Ljc.Com.WebDataCollection.Model\obj\Debug\Ljc.Com.WebDataCollection.Model.pdb
+D:\GitHub\Ljc.Com.WebDataCollection\Ljc.Com.WebDataCollection.Web\Ljc.Com.WebDataCollection.Model\obj\Debug\Ljc.Com.WebDataCollection.Model.csprojResolveAssemblyReference.cache

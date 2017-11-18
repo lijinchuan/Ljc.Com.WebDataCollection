@@ -1,0 +1,69 @@
+[16:19:13.4514] SendMessageAnsy
+错误信息:操作已超时。
+堆栈信息:
+---------数据信息---------
+ errorsender: LJC.FrameWork.SocketApplication.SocketSTD.SessionClient
+ MessageType: 100
+ TransactionID: cb1fa6440cf74b28aac4290a6a989f4e_1
+ ipString: 106.14.193.150
+ ipPort: 20000
+ MessageBuffer: H4sIAAAAAAAEAGNgymNiZIACpt3y3RxgFgvD1L6NfE0OAi5b9z759/CUtRPHl6zUl/ISznwRZ9Tu3Nupw1r/IL27S7V18kq1fLXN1WnVPJqbZjxZ+Xlx5ByrtdcmLJvwrNzNc/W8ZINe+YdNvZGNPtprhZQ79zZf+bulh0Xh4+EMeeEPOdUq/roKpTeqOmOWLEvTn7B70XHHhrVhaVfFqq3C4l/0n3sYMfXpetGdzHlp1Xdrik/bn5GUjDro0SofHc4jEfDG6MmWones7L8qW/SAXgAA0x3wpMoAAAA=
+ resulttype: EM.Pm.BigData.Selector.Model.ServiceContact.TestStrategyCodeResponse
+------------数据信息END---------------
+
+[16:20:38.4963] SendMessageAnsy
+错误信息:操作已超时。
+堆栈信息:
+---------数据信息---------
+ errorsender: LJC.FrameWork.SocketApplication.SocketSTD.SessionClient
+ MessageType: 100
+ TransactionID: cb1fa6440cf74b28aac4290a6a989f4e_2
+ ipString: 106.14.193.150
+ ipPort: 20000
+ MessageBuffer: H4sIAAAAAAAEAGNgymNiZIACpt3y3RxgFgvD1L6NfE0OAi5b9z759/CUtRPHl6zUl/ISznwRZ9Tu3Nupw1r/IL27S7V18kq1fLXN1WnVPJqbZjxZ+Xlx5ByrtdcmLJvwrNzNc/W8ZINe+YdNvZGNPtprhZQ79zZf+bulh0Xh4+EMeeEPOdUq/roKpTeqOmOWLEvTn7B70XHHhrVhaVfFqq3C4l/0n3sYMfXpetGdzHlp1Xdrik/bn5GUjDro0SofHc4jEfDG6MmWones7L8qW/SAXgAA0x3wpMoAAAA=
+ resulttype: EM.Pm.BigData.Selector.Model.ServiceContact.TestStrategyCodeResponse
+------------数据信息END---------------
+
+[16:21:57.6278] SendMessageAnsy
+错误信息:操作已超时。
+堆栈信息:
+---------数据信息---------
+ errorsender: LJC.FrameWork.SocketApplication.SocketSTD.SessionClient
+ MessageType: 100
+ TransactionID: cb1fa6440cf74b28aac4290a6a989f4e_3
+ ipString: 106.14.193.150
+ ipPort: 20000
+ MessageBuffer: H4sIAAAAAAAEAGNgymNiZIACpt3y3RxgFgvD1L6NfE0OAi5b9z759/CUtRPHl6zUl/ISznwRZ9Tu3Nupw1r/IL27S7V18kq1fLXN1WnVPJqbZjxZ+Xlx5ByrtdcmLJvwrNzNc/W8ZINe+YdNvZGNPtprhZQ79zZf+bulh0Xh4+EMeeEPOdUq/roKpTeqOmOWLEvTn7B70XHHhrVhaVfFqq3C4l/0n3sYMfXpetGdzHlp1Xdrik/bn5GUjDro0SofHc4jEfDG6MmWones7L8qW/SAXgAA0x3wpMoAAAA=
+ resulttype: EM.Pm.BigData.Selector.Model.ServiceContact.TestStrategyCodeResponse
+------------数据信息END---------------
+
+[16:57:18.1511] StartClient error
+错误信息:连接到远程服务器127.0.0.1失败，端口:20000，原因:由于目标计算机积极拒绝，无法连接。 127.0.0.1:20000,网络错误号:ConnectionRefused
+堆栈信息:   在 LJC.FrameWork.SocketApplication.SocketSTD.MessageApp.StartClient()
+---------数据信息---------
+------------数据信息END---------------
+
+[16:57:18.1511] StartClient error
+错误信息:连接到远程服务器127.0.0.1失败，端口:20000，原因:由于目标计算机积极拒绝，无法连接。 127.0.0.1:20000,网络错误号:ConnectionRefused
+堆栈信息:   在 LJC.FrameWork.SocketApplication.SocketSTD.MessageApp.StartClient()
+---------数据信息---------
+------------数据信息END---------------
+
+[16:57:18.1571] StartClient error
+错误信息:连接到远程服务器127.0.0.1失败，端口:20000，原因:由于目标计算机积极拒绝，无法连接。 127.0.0.1:20000,网络错误号:ConnectionRefused
+堆栈信息:   在 LJC.FrameWork.SocketApplication.SocketSTD.MessageApp.StartClient()
+---------数据信息---------
+------------数据信息END---------------
+
+[16:57:18.1511] StartClient error
+错误信息:连接到远程服务器127.0.0.1失败，端口:20000，原因:由于目标计算机积极拒绝，无法连接。 127.0.0.1:20000,网络错误号:ConnectionRefused
+堆栈信息:   在 LJC.FrameWork.SocketApplication.SocketSTD.MessageApp.StartClient()
+---------数据信息---------
+------------数据信息END---------------
+
+[16:57:18.1511] StartClient error
+错误信息:连接到远程服务器127.0.0.1失败，端口:20000，原因:由于目标计算机积极拒绝，无法连接。 127.0.0.1:20000,网络错误号:ConnectionRefused
+堆栈信息:   在 LJC.FrameWork.SocketApplication.SocketSTD.MessageApp.StartClient()
+---------数据信息---------
+------------数据信息END---------------
+

@@ -1,0 +1,65 @@
+{
+    "environments": [
+        {
+            "name": "dev",
+            "datacenter": "ALL",
+            "target": "dev",
+            "container": "IIS7.5",
+            "version": "1.0"
+        },
+        {
+            "name": "test",
+            "datacenter": "ALL",
+            "target": "test",
+            "container": "IIS7.5",
+            "version": "1.0"
+        },
+        {
+            "name": "prod",
+            "datacenter": "ALL",
+            "target": "prod",
+            "container": "IIS7.5",
+            "version": "1.0"
+        },
+        {
+            "name": "zptest",
+            "datacenter": "ALL",
+            "target": "zptest",
+            "container": "IIS7.5",
+            "version": "1.0"
+        }
+    ],
+    "dev": {
+        "MongodbSparkTask": "mongodb://127.0.0.1",
+        "ESBServer": "127.0.0.1",
+        "ESBPort": "20000",
+        "pythonsearchpaths": "E:\\Work\\Code\\newsvn\\Payment\\BigData\\DataSelfService\\Code\\Ljc.Com.WebDataCollection\\Ljc.Com.WebDataCollection.PyLib\\Ljc.Com.WebDataCollection.PyLib,C:\\Python27\\Lib,C:\\Python27\\DLLs,C:\\Python27\\Lib\\site-packages",
+        "StrategyCodeDir": "E:\\Work\\Code\\newsvn\\Payment\\BigData\\DataSelfService\\Code\\Ljc.Com.WebDataCollection\\Ljc.Com.WebDataCollection.PyLib\\Ljc.Com.WebDataCollection.PyLib",
+        "PythonPath": "C:\\Python27\\python.exe"
+    },
+    "zptest": {
+        "MongodbSparkTask": "mongodb://bgData:bgData@10.205.113.210:12345/spark",
+         "ESBServer": "10.205.112.43",
+        "ESBPort": "20000",
+        "DefaultSparkHome": "/vdb/app/spark-2.1.1-bin-hadoop2.7",
+        "LogDir": "D:\\EM_logs\\iis\\BigDataSparkManager\\",
+        "pythonsearchpaths": "",
+        "StrategyCodeDir": "",
+        "PythonPath": ""
+    },
+    "test": {
+        "MongodbSparkTask": "mongodb://127.0.0.1",
+         "ESBServer": "127.0.0.1",
+        "ESBPort": "20000"
+    },
+    "prod": {
+        "MongodbSparkTask": "mongodb://127.0.0.1",
+         "ESBServer": "127.0.0.1",
+        "ESBPort": "20000",
+        "DefaultSparkHome": "/vdb/app/spark-2.1.1-bin-hadoop2.7",
+        "LogDir": "D:\\EM_logs\\iis\\BigDataSparkManager\\",
+        "pythonsearchpaths": "",
+        "StrategyCodeDir": "",
+        "PythonPath": ""
+    }
+}

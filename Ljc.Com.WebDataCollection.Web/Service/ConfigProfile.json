@@ -1,0 +1,54 @@
+{
+    "environments": [
+        {
+            "name": "dev",
+            "datacenter": "ALL",
+            "target": "dev",
+            "container": "IIS7.5",
+            "version": "1.0"
+        },
+        {
+            "name": "test",
+            "datacenter": "ALL",
+            "target": "test",
+            "container": "IIS7.5",
+            "version": "1.0"
+        },
+        {
+            "name": "prod",
+            "datacenter": "ALL",
+            "target": "prod",
+            "container": "IIS7.5",
+            "version": "1.0"
+        },
+        {
+            "name": "zptest",
+            "datacenter": "ALL",
+            "target": "zptest",
+            "container": "IIS7.5",
+            "version": "1.0"
+        }
+    ],
+    "dev": {
+        "MongodbSparkTask": "mongodb://127.0.0.1",
+        "ESBServer": "127.0.0.1",
+        "ESBPort": "20000"
+    },
+    "zptest": {
+        "MongodbSparkTask": "mongodb://bgData:bgData@10.205.113.210:12345/spark",
+         "ESBServer": "10.205.112.43",
+        "ESBPort": "20000",
+        "LogDir": "D:\\EM_logs\\services\\Ljc.Com.WebDataCollectionService\\"
+    },
+    "test": {
+        "MongodbSparkTask": "mongodb://127.0.0.1",
+         "ESBServer": "127.0.0.1",
+        "ESBPort": "20000"
+    },
+    "prod": {
+        "MongodbSparkTask": "mongodb://127.0.0.1",
+         "ESBServer": "127.0.0.1",
+        "ESBPort": "20000",
+        "LogDir": "D:\\EM_logs\\services\\Ljc.Com.WebDataCollectionService\\"
+    }
+}

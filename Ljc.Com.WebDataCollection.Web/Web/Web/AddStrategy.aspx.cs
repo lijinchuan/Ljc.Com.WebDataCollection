@@ -10,7 +10,7 @@ namespace Ljc.Com.WebDataCollection.Web
     public partial class AddStrategy : System.Web.UI.Page
     {
         protected string ImprotCode = @"#/usr/bin/env python
-# -*- coding: UTF-8 -*-
+# -*- coding: utf-8 -*-
 import numpy as np
 import pandas as pd
 from baseLib import *";

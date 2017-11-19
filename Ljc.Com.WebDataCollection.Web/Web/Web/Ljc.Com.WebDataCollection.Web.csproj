@@ -158,7 +158,21 @@
     <Compile Include="AddStrategy.aspx.designer.cs">
       <DependentUpon>AddStrategy.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CodeEdit.aspx.cs">
+      <DependentUpon>CodeEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CodeEdit.aspx.designer.cs">
+      <DependentUpon>CodeEdit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\StrategyController.cs" />
+    <Compile Include="DataCodeManager.aspx.cs">
+      <DependentUpon>DataCodeManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataCodeManager.aspx.designer.cs">
+      <DependentUpon>DataCodeManager.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -169,8 +183,18 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="AddStrategy.aspx" />
+    <Content Include="CodeEdit.aspx" />
+    <Content Include="CodeEdit.html" />
+    <Content Include="Scripts\base.css" />
+    <Content Include="Scripts\edit.css" />
+    <Content Include="Scripts\index.css" />
+    <None Include="Scripts\python-api.json" />
+    <Content Include="Scripts\pikaday.css" />
+    <Content Include="DataCodeManager.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -189,6 +213,34 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ConfigProfile.json" />
+    <Content Include="Scripts\ace.js" />
+    <Content Include="Scripts\base.js" />
+    <Content Include="Scripts\DateFormat-daeab003a3.min.js" />
+    <Content Include="Scripts\editStrategy-03345fa6c3.min.js" />
+    <Content Include="Scripts\eidit.js" />
+    <Content Include="Scripts\exporting.js" />
+    <Content Include="Scripts\ext-language_tools.js" />
+    <Content Include="Scripts\ext-statusbar.js" />
+    <Content Include="Scripts\HighChartsUtil-585e0fc6db.min.js" />
+    <Content Include="Scripts\highstock.js" />
+    <Content Include="Scripts\joya.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jsbase64.js" />
+    <Content Include="Scripts\mode-java.js" />
+    <Content Include="Scripts\mode-python.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\pikaday.jquery.js" />
+    <Content Include="Scripts\pikaday.js" />
+    <Content Include="Scripts\python.js" />
+    <Content Include="Scripts\sockjs-1.0.3.js" />
+    <Content Include="Scripts\StandardPost-e86c393d53.min.js" />
+    <Content Include="Scripts\stocks.js" />
+    <Content Include="Scripts\theme-monokai.js" />
+    <Content Include="Scripts\theme-xcode.js" />
+    <Content Include="Scripts\vue.min.js" />
+    <Content Include="Scripts\wl.dev.full.js" />
+    <Content Include="Scripts\wl.dev.js" />
     <None Include="Web.config.tpl">
       <SubType>Designer</SubType>
     </None>

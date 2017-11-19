@@ -8,7 +8,7 @@ namespace Ljc.Com.WebDataCollection.Core
 {
     public class StrategySafeScaner
     {
-        private static string[] SafePackages = new[] { "baseLib", "numpy", "pandas", "math", "time" };
+        private static string[] SafePackages = new[] { "baseLib", "numpy", "pandas", "math", "time", "urllib2", "urllib", "requests" };
 
         //import\s([\w\.]+)\s?
         //from\s+[\w\.]+\s+import\s+

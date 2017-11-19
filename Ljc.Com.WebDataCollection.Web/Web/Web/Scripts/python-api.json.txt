@@ -1,0 +1,2782 @@
+﻿{
+    "staticMethodMap": {
+        "order_lot": {
+            "name": "order_lot",
+            "showPara": [
+                "stock_code",
+                "amount",
+                "style"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "stock_code",
+                "amount",
+                "style"
+            ],
+            "retType": "int",
+            "showRetType": "int"
+        },
+        "order_value": {
+            "name": "order_value",
+            "showPara": [
+                "stock_code",
+                "cash_amount",
+                "style"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "stock_code",
+                "cash_amount",
+                "style"
+            ],
+            "retType": "int",
+            "showRetType": "int"
+        },
+        "order_target_percent": {
+            "name": "order_target_percent",
+            "showPara": [
+                "stock_code",
+                "percent",
+                "style"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "stock_code",
+                "percent",
+                "style"
+            ],
+            "retType": "int",
+            "showRetType": "int"
+        },
+        "order_target_value": {
+            "name": "order_target_value",
+            "showPara": [
+                "stock_code",
+                "cash_amount",
+                "style"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "stock_code",
+                "cash_amount",
+                "style"
+            ],
+            "retType": "int",
+            "showRetType": "int"
+        },
+        "order_share": {
+            "name": "order_share",
+            "showPara": [
+                "stock_code",
+                "amount",
+                "style"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "stock_code",
+                "amount",
+                "style"
+            ],
+            "retType": "int",
+            "showRetType": "int"
+        },
+        "order_percent": {
+            "name": "order_percent",
+            "showPara": [
+                "stock_code",
+                "percent",
+                "style"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "stock_code",
+                "percent",
+                "style"
+            ],
+            "retType": "int",
+            "showRetType": "int"
+        },
+        "get_order": {
+            "name": "get_order",
+            "showPara": [
+                "order_id"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "order_id"
+            ],
+            "retType": "Order",
+            "showRetType": "Order"
+        },
+        "LimitOrder": {
+            "name": "LimitOrder",
+            "showPara": [
+                "price"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "price"
+            ],
+            "retType": "void",
+            "showRetType": "void"
+        },
+        "MarketOrder": {
+            "name": "MarketOrder",
+            "showPara": [],
+            "type": "staticMethod",
+            "para": [],
+            "retType": "void",
+            "showRetType": "void"
+        },
+        "Daily": {
+            "name": "Daily",
+            "showPara": [],
+            "type": "staticMethod",
+            "para": [],
+            "retType": "void",
+            "showRetType": "void"
+        },
+        "Weekly": {
+            "name": "Weekly",
+            "showPara": [
+                "weekday"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "weekday"
+            ],
+            "retType": "void",
+            "showRetType": "void"
+        },
+        "Monthly": {
+            "name": "Monthly",
+            "showPara": [
+                "offset"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "offset"
+            ],
+            "retType": "void",
+            "showRetType": "void"
+        },
+        "get_fundamentals": {
+            "name": "get_fundamentals",
+            "showPara": [
+                "query",
+                "date"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "query",
+                "date"
+            ],
+            "retType": "DataFrame",
+            "showRetType": "DataFrame"
+        },
+        "query": {
+            "name": "query",
+            "showPara": [
+                "entities"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "entities"
+            ],
+            "retType": "Query",
+            "showRetType": "Query"
+        },
+        "get_index_constituents": {
+            "name": "get_index_constituents",
+            "showPara": [
+                "order_book_id",
+                "country"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "order_book_id",
+                "country"
+            ],
+            "retType": "List",
+            "showRetType": "List"
+        },
+        "market_open": {
+            "name": "market_open",
+            "showPara": [
+                "hour",
+                "minute"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "hour",
+                "minute"
+            ],
+            "retType": "void",
+            "showRetType": "void"
+        },
+        "market_close": {
+            "name": "market_close",
+            "showPara": [
+                "hour",
+                "minute"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "hour",
+                "minute"
+            ],
+            "retType": "void",
+            "showRetType": "void"
+        },
+        "get_securities": {
+            "name": "get_securities",
+            "showPara": [
+                "stock_code"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "stock_code"
+            ],
+            "retType": "Union",
+            "showRetType": "Union"
+        },
+        "get_sector": {
+            "name": "get_sector",
+            "showPara": [
+                "sector_code"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "sector_code"
+            ],
+            "retType": "List",
+            "showRetType": "List"
+        },
+        "draw": {
+            "name": "draw",
+            "showPara": [
+                "key",
+                "value"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "key",
+                "value"
+            ],
+            "retType": "void",
+            "showRetType": "void"
+        },
+        "is_st": {
+            "name": "is_st",
+            "showPara": [
+                "order_book_id"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "order_book_id"
+            ],
+            "retType": "bool",
+            "showRetType": "bool"
+        },
+        "set_universe": {
+            "name": "set_universe",
+            "showPara": [
+                "stock_codes"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "stock_codes"
+            ],
+            "retType": "void",
+            "showRetType": "void"
+        },
+        "get_history": {
+            "name": "get_history",
+            "showPara": [
+                "data_count",
+                "frequency",
+                "field"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "data_count",
+                "frequency",
+                "field"
+            ],
+            "retType": "DataFrame",
+            "showRetType": "DataFrame"
+        },
+        "get_industry": {
+            "name": "get_industry",
+            "showPara": [
+                "industry_code"
+            ],
+            "type": "staticMethod",
+            "para": [
+                "industry_code"
+            ],
+            "retType": "List",
+            "showRetType": "List"
+        }
+    },
+    "lamdaHintMap": {},
+    "typePropMap": {
+        "TradeData": {
+            "sf": [
+                {
+                    "name": "sf",
+                    "retType": "int",
+                    "type": "int"
+                }
+            ],
+            "order_book_id": [
+                {
+                    "name": "order_book_id",
+                    "retType": "str",
+                    "type": "str"
+                }
+            ],
+            "symbol": [
+                {
+                    "name": "symbol",
+                    "retType": "str",
+                    "type": "str"
+                }
+            ],
+            "last": [
+                {
+                    "name": "last",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "volume": [
+                {
+                    "name": "volume",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "close": [
+                {
+                    "name": "close",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "open": [
+                {
+                    "name": "open",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "low": [
+                {
+                    "name": "low",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "date": [
+                {
+                    "name": "date",
+                    "retType": "str",
+                    "type": "str"
+                }
+            ],
+            "high": [
+                {
+                    "name": "high",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "get_mavg": [
+                {
+                    "name": "get_mavg",
+                    "showPara": [
+                        "intervals",
+                        "frequency"
+                    ],
+                    "type": "func",
+                    "para": [
+                        "intervals",
+                        "frequency"
+                    ],
+                    "retType": "float",
+                    "showRetType": "float"
+                }
+            ],
+            "get_vwap": [
+                {
+                    "name": "get_vwap",
+                    "showPara": [
+                        "intervals",
+                        "frequency"
+                    ],
+                    "type": "func",
+                    "para": [
+                        "intervals",
+                        "frequency"
+                    ],
+                    "retType": "float",
+                    "showRetType": "float"
+                }
+            ]
+        },
+        "Portfolio": {
+            "daily_returns": [
+                {
+                    "name": "daily_returns",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "start_date": [
+                {
+                    "name": "start_date",
+                    "retType": "datetime",
+                    "type": "datetime"
+                }
+            ],
+            "positions": [
+                {
+                    "name": "positions",
+                    "retType": "dict",
+                    "type": "dict"
+                }
+            ],
+            "portfolio_value": [
+                {
+                    "name": "portfolio_value",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "cash": [
+                {
+                    "name": "cash",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "market_value": [
+                {
+                    "name": "market_value",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "annualized_returns": [
+                {
+                    "name": "annualized_returns",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "dividend_receivable": [
+                {
+                    "name": "dividend_receivable",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "total_returns": [
+                {
+                    "name": "total_returns",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "starting_cash": [
+                {
+                    "name": "starting_cash",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "pnl": [
+                {
+                    "name": "pnl",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ]
+        },
+        "Scheduler": {
+            "daily": [
+                {
+                    "name": "daily",
+                    "showPara": [
+                        "func",
+                        "time_rule"
+                    ],
+                    "type": "func",
+                    "para": [
+                        "func",
+                        "time_rule"
+                    ],
+                    "retType": "void",
+                    "showRetType": "void"
+                }
+            ],
+            "monthly": [
+                {
+                    "name": "monthly",
+                    "showPara": [
+                        "func",
+                        "monthday",
+                        "time_rule"
+                    ],
+                    "type": "func",
+                    "para": [
+                        "func",
+                        "monthday",
+                        "time_rule"
+                    ],
+                    "retType": "void",
+                    "showRetType": "void"
+                }
+            ],
+            "weekly": [
+                {
+                    "name": "weekly",
+                    "showPara": [
+                        "func",
+                        "weekday",
+                        "time_rule"
+                    ],
+                    "type": "func",
+                    "para": [
+                        "func",
+                        "weekday",
+                        "time_rule"
+                    ],
+                    "retType": "void",
+                    "showRetType": "void"
+                }
+            ]
+        },
+        "equity_valuation_indicator": {
+            "pcf_ratio_ocf": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "pcf_ratio_ocf"
+                }
+            ],
+            "ps_ratio_nobtest": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ps_ratio_nobtest"
+                }
+            ],
+            "pe_ratio_nobtest": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "pe_ratio_nobtest"
+                }
+            ],
+            "market_cap_2": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "market_cap_2"
+                }
+            ],
+            "a_share_market_val": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "a_share_market_val"
+                }
+            ],
+            "ps_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ps_ratio"
+                }
+            ],
+            "wind_code": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "wind_code"
+                }
+            ],
+            "ps_ratio_ttm": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ps_ratio_ttm"
+                }
+            ],
+            "pcf_ratio_ncf": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "pcf_ratio_ncf"
+                }
+            ],
+            "pe_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "pe_ratio"
+                }
+            ],
+            "pe_ratio_ttm": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "pe_ratio_ttm"
+                }
+            ],
+            "pcf_ratio_ncfttm": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "pcf_ratio_ncfttm"
+                }
+            ],
+            "peg_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "peg_ratio"
+                }
+            ],
+            "dividend_yield": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "dividend_yield"
+                }
+            ],
+            "pb_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "pb_ratio"
+                }
+            ],
+            "pcf_ratio_ocfttm": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "pcf_ratio_ocfttm"
+                }
+            ],
+            "a_share_market_val_2": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "a_share_market_val_2"
+                }
+            ]
+        },
+        "income_statement": {
+            "other_income": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "other_income"
+                }
+            ],
+            "profit_before_tax": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "profit_before_tax"
+                }
+            ],
+            "loss_from_disposal_of_noncurrent_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "loss_from_disposal_of_noncurrent_assets"
+                }
+            ],
+            "non_operating_revenue": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_operating_revenue"
+                }
+            ],
+            "financing_expense": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "financing_expense"
+                }
+            ],
+            "basic_earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "basic_earnings_per_share"
+                }
+            ],
+            "net_profit": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "net_profit"
+                }
+            ],
+            "ga_expense": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ga_expense"
+                }
+            ],
+            "net_investment_income": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "net_investment_income"
+                }
+            ],
+            "profit_from_operation": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "profit_from_operation"
+                }
+            ],
+            "operating_revenue": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "operating_revenue"
+                }
+            ],
+            "income_tax": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "income_tax"
+                }
+            ],
+            "unrecognized_investment_losses": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "unrecognized_investment_losses"
+                }
+            ],
+            "exchange_net_gains": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "exchange_net_gains"
+                }
+            ],
+            "cost_of_goods_sold": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cost_of_goods_sold"
+                }
+            ],
+            "total_income_minority": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "total_income_minority"
+                }
+            ],
+            "selling_expense": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "selling_expense"
+                }
+            ],
+            "wind_code": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "wind_code"
+                }
+            ],
+            "net_profit_parent_company": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "net_profit_parent_company"
+                }
+            ],
+            "non_operating_expense": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_operating_expense"
+                }
+            ],
+            "total_expense": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "total_expense"
+                }
+            ],
+            "revenue": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "revenue"
+                }
+            ],
+            "sales_tax": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "sales_tax"
+                }
+            ],
+            "asset_depreciation": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "asset_depreciation"
+                }
+            ],
+            "_total_comprehensive_income_parent_company": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "_total_comprehensive_income_parent_company"
+                }
+            ],
+            "total_income": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "total_income"
+                }
+            ]
+        },
+        "fundamentals": {
+            "equity_valuation_indicator": [
+                {
+                    "retType": "",
+                    "type": "equity_valuation_indicator",
+                    "name": "equity_valuation_indicator"
+                }
+            ],
+            "balance_sheet": [
+                {
+                    "retType": "",
+                    "type": "balance_sheet",
+                    "name": "balance_sheet"
+                }
+            ],
+            "income_statement": [
+                {
+                    "retType": "",
+                    "type": "income_statement",
+                    "name": "income_statement"
+                }
+            ],
+            "financial_analysis_indicator": [
+                {
+                    "retType": "",
+                    "type": "financial_analysis_indicator",
+                    "name": "financial_analysis_indicator"
+                }
+            ],
+            "cash_flow_statement": [
+                {
+                    "retType": "",
+                    "type": "cash_flow_statement",
+                    "name": "cash_flow_statement"
+                }
+            ]
+        },
+        "balance_sheet": {
+            "goodwill": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "goodwill"
+                }
+            ],
+            "total_liabilities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "total_liabilities"
+                }
+            ],
+            "equity_parent_company": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "equity_parent_company"
+                }
+            ],
+            "non_current_liabilities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_current_liabilities"
+                }
+            ],
+            "non_current_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_current_assets"
+                }
+            ],
+            "devidend_receivable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "devidend_receivable"
+                }
+            ],
+            "stock_capital": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "stock_capital"
+                }
+            ],
+            "undistributed_profit": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "undistributed_profit"
+                }
+            ],
+            "deferred_income_tax_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "deferred_income_tax_assets"
+                }
+            ],
+            "tax_payable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "tax_payable"
+                }
+            ],
+            "total_liabilities_and_equity": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "total_liabilities_and_equity"
+                }
+            ],
+            "fixed_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "fixed_assets"
+                }
+            ],
+            "financial_liabilities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "financial_liabilities"
+                }
+            ],
+            "other_non_current_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "other_non_current_assets"
+                }
+            ],
+            "other_current_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "other_current_assets"
+                }
+            ],
+            "long_term_receivables": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "long_term_receivables"
+                }
+            ],
+            "long_term_deferred_expenses": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "long_term_deferred_expenses"
+                }
+            ],
+            "unrealised_investment_loss": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "unrealised_investment_loss"
+                }
+            ],
+            "estimated_liabilities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "estimated_liabilities"
+                }
+            ],
+            "bond_payable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "bond_payable"
+                }
+            ],
+            "minority_interest": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "minority_interest"
+                }
+            ],
+            "financial_asset_held_for_trading": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "financial_asset_held_for_trading"
+                }
+            ],
+            "intangible_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "intangible_assets"
+                }
+            ],
+            "grants_received": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "grants_received"
+                }
+            ],
+            "wind_code": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "wind_code"
+                }
+            ],
+            "advance_from_customers": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "advance_from_customers"
+                }
+            ],
+            "oil_and_gas_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "oil_and_gas_assets"
+                }
+            ],
+            "payroll_payable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "payroll_payable"
+                }
+            ],
+            "total_owners_equity": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "total_owners_equity"
+                }
+            ],
+            "other_receivables": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "other_receivables"
+                }
+            ],
+            "deferred_income_tax_liabilities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "deferred_income_tax_liabilities"
+                }
+            ],
+            "impairment_intangible_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "impairment_intangible_assets"
+                }
+            ],
+            "interest_receivable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "interest_receivable"
+                }
+            ],
+            "inventories": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inventories"
+                }
+            ],
+            "long_term_equity_investment": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "long_term_equity_investment"
+                }
+            ],
+            "financial_asset_available_for_sale": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "financial_asset_available_for_sale"
+                }
+            ],
+            "short_term_loans": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "short_term_loans"
+                }
+            ],
+            "current_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "current_assets"
+                }
+            ],
+            "cash": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash"
+                }
+            ],
+            "accrued_expense": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "accrued_expense"
+                }
+            ],
+            "prepayment": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "prepayment"
+                }
+            ],
+            "real_estate_investment": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "real_estate_investment"
+                }
+            ],
+            "financial_asset_hold_to_maturity": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "financial_asset_hold_to_maturity"
+                }
+            ],
+            "long_term_payable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "long_term_payable"
+                }
+            ],
+            "short_term_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "short_term_debt"
+                }
+            ],
+            "engineer_material": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "engineer_material"
+                }
+            ],
+            "surplus_reserve": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "surplus_reserve"
+                }
+            ],
+            "other_payable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "other_payable"
+                }
+            ],
+            "capitalized_biological_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "capitalized_biological_assets"
+                }
+            ],
+            "interest_payable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "interest_payable"
+                }
+            ],
+            "bill_receivable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "bill_receivable"
+                }
+            ],
+            "total_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "total_assets"
+                }
+            ],
+            "accounts_receivable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "accounts_receivable"
+                }
+            ],
+            "capital_reserve": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "capital_reserve"
+                }
+            ],
+            "construction_in_progress": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "construction_in_progress"
+                }
+            ],
+            "non_current_debt_due_one_year": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_current_debt_due_one_year"
+                }
+            ],
+            "other_non_current_liabilities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "other_non_current_liabilities"
+                }
+            ],
+            "fixed_asset_to_be_disposed": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "fixed_asset_to_be_disposed"
+                }
+            ],
+            "long_term_loans": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "long_term_loans"
+                }
+            ],
+            "current_liabilities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "current_liabilities"
+                }
+            ],
+            "notes_payable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "notes_payable"
+                }
+            ],
+            "other_current_liabilities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "other_current_liabilities"
+                }
+            ],
+            "deferred_expense": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "deferred_expense"
+                }
+            ],
+            "accts_payable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "accts_payable"
+                }
+            ],
+            "dividend_payable": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "dividend_payable"
+                }
+            ]
+        },
+        "financial_analysis_indicator": {
+            "account_receivable_turnover_rate": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "account_receivable_turnover_rate"
+                }
+            ],
+            "annual_return_on_equity": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "annual_return_on_equity"
+                }
+            ],
+            "dividend_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "dividend_per_share"
+                }
+            ],
+            "invested_capital": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "invested_capital"
+                }
+            ],
+            "inc_operating_revenue": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inc_operating_revenue"
+                }
+            ],
+            "long_term_debt_to_working_capital": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "long_term_debt_to_working_capital"
+                }
+            ],
+            "ebit_to_revenue": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ebit_to_revenue"
+                }
+            ],
+            "time_interest_earned_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "time_interest_earned_ratio"
+                }
+            ],
+            "inventory_turnover": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inventory_turnover"
+                }
+            ],
+            "account_receivable_turnover_days": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "account_receivable_turnover_days"
+                }
+            ],
+            "diluted_earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "diluted_earnings_per_share"
+                }
+            ],
+            "undistributed_profit_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "undistributed_profit_per_share"
+                }
+            ],
+            "working_capital": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "working_capital"
+                }
+            ],
+            "ebit_to_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ebit_to_debt"
+                }
+            ],
+            "non_recurring_profit_and_loss": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_recurring_profit_and_loss"
+                }
+            ],
+            "ocf_to_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ocf_to_debt"
+                }
+            ],
+            "du_profit_margin": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "du_profit_margin"
+                }
+            ],
+            "inc_gross_profit": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inc_gross_profit"
+                }
+            ],
+            "equity_to_debt_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "equity_to_debt_ratio"
+                }
+            ],
+            "equity_multiplier": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "equity_multiplier"
+                }
+            ],
+            "tangible_assets": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "tangible_assets"
+                }
+            ],
+            "adjusted_diluted_earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "adjusted_diluted_earnings_per_share"
+                }
+            ],
+            "fixed_asset_turnover": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "fixed_asset_turnover"
+                }
+            ],
+            "inc_cash_from_operations": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inc_cash_from_operations"
+                }
+            ],
+            "net_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "net_debt"
+                }
+            ],
+            "ebit": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ebit"
+                }
+            ],
+            "inc_diluted_earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inc_diluted_earnings_per_share"
+                }
+            ],
+            "gross_profit_margin": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "gross_profit_margin"
+                }
+            ],
+            "ebit_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ebit_per_share"
+                }
+            ],
+            "total_asset_turnover": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "total_asset_turnover"
+                }
+            ],
+            "equity_to_interest_bearing_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "equity_to_interest_bearing_debt"
+                }
+            ],
+            "inc_book_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inc_book_per_share"
+                }
+            ],
+            "capital_reserve_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "capital_reserve_per_share"
+                }
+            ],
+            "cash_flow_from_operations_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_flow_from_operations_per_share"
+                }
+            ],
+            "quick_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "quick_ratio"
+                }
+            ],
+            "profit_from_operation_to_revenue": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "profit_from_operation_to_revenue"
+                }
+            ],
+            "adjusted_earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "adjusted_earnings_per_share"
+                }
+            ],
+            "interest_bearing_debt_to_capital": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "interest_bearing_debt_to_capital"
+                }
+            ],
+            "fcfe": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "fcfe"
+                }
+            ],
+            "fully_diluted_earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "fully_diluted_earnings_per_share"
+                }
+            ],
+            "interest_bearing_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "interest_bearing_debt"
+                }
+            ],
+            "current_debt_to_total_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "current_debt_to_total_debt"
+                }
+            ],
+            "du_return_on_sales": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "du_return_on_sales"
+                }
+            ],
+            "operating_profit_to_profit_before_tax": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "operating_profit_to_profit_before_tax"
+                }
+            ],
+            "adjusted_fully_diluted_earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "adjusted_fully_diluted_earnings_per_share"
+                }
+            ],
+            "du_return_on_equity": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "du_return_on_equity"
+                }
+            ],
+            "account_payable_turnover_rate": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "account_payable_turnover_rate"
+                }
+            ],
+            "net_working_capital": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "net_working_capital"
+                }
+            ],
+            "current_asset_turnover": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "current_asset_turnover"
+                }
+            ],
+            "debt_to_equity_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "debt_to_equity_ratio"
+                }
+            ],
+            "ebitda": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ebitda"
+                }
+            ],
+            "earned_reserve_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "earned_reserve_per_share"
+                }
+            ],
+            "non_interest_bearing_non_current_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_interest_bearing_non_current_debt"
+                }
+            ],
+            "tangible_asset_to_total_asset": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "tangible_asset_to_total_asset"
+                }
+            ],
+            "adjusted_net_profit": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "adjusted_net_profit"
+                }
+            ],
+            "retained_earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "retained_earnings_per_share"
+                }
+            ],
+            "tangible_asset_to_interest_bearing_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "tangible_asset_to_interest_bearing_debt"
+                }
+            ],
+            "net_profit_to_revenue": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "net_profit_to_revenue"
+                }
+            ],
+            "inc_revenue": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inc_revenue"
+                }
+            ],
+            "return_on_invested_capital": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "return_on_invested_capital"
+                }
+            ],
+            "return_on_equity": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "return_on_equity"
+                }
+            ],
+            "tangible_asset_to_net_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "tangible_asset_to_net_debt"
+                }
+            ],
+            "super_quick_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "super_quick_ratio"
+                }
+            ],
+            "ocf_to_current_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ocf_to_current_ratio"
+                }
+            ],
+            "return_on_asset_net_profit": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "return_on_asset_net_profit"
+                }
+            ],
+            "free_cash_flow_company_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "free_cash_flow_company_per_share"
+                }
+            ],
+            "cost_to_sales": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cost_to_sales"
+                }
+            ],
+            "non_current_debt_to_total_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_current_debt_to_total_debt"
+                }
+            ],
+            "inc_total_asset": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inc_total_asset"
+                }
+            ],
+            "income_tax_to_profit_before_tax": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "income_tax_to_profit_before_tax"
+                }
+            ],
+            "new_diluted_book_value_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "new_diluted_book_value_per_share"
+                }
+            ],
+            "wind_code": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "wind_code"
+                }
+            ],
+            "tangible_asset_to_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "tangible_asset_to_debt"
+                }
+            ],
+            "ocf_to_interest_bearing_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ocf_to_interest_bearing_debt"
+                }
+            ],
+            "debt_to_asset_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "debt_to_asset_ratio"
+                }
+            ],
+            "free_cash_flow_equity_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "free_cash_flow_equity_per_share"
+                }
+            ],
+            "earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "earnings_per_share"
+                }
+            ],
+            "adjusted_return_on_equity_weighted_average": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "adjusted_return_on_equity_weighted_average"
+                }
+            ],
+            "du_asset_turnover_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "du_asset_turnover_ratio"
+                }
+            ],
+            "operating_total_revenue_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "operating_total_revenue_per_share"
+                }
+            ],
+            "fcff": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "fcff"
+                }
+            ],
+            "new_diluted_earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "new_diluted_earnings_per_share"
+                }
+            ],
+            "return_on_equity_weighted_average": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "return_on_equity_weighted_average"
+                }
+            ],
+            "net_profit_margin": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "net_profit_margin"
+                }
+            ],
+            "ocf_to_net_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "ocf_to_net_debt"
+                }
+            ],
+            "return_on_asset": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "return_on_asset"
+                }
+            ],
+            "annual_return_on_asset": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "annual_return_on_asset"
+                }
+            ],
+            "retained_earnings": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "retained_earnings"
+                }
+            ],
+            "inc_earnings_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inc_earnings_per_share"
+                }
+            ],
+            "adjusted_return_on_equity_diluted": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "adjusted_return_on_equity_diluted"
+                }
+            ],
+            "return_on_equity_diluted": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "return_on_equity_diluted"
+                }
+            ],
+            "non_current_asset_to_total_asset": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_current_asset_to_total_asset"
+                }
+            ],
+            "inc_return_on_equity": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inc_return_on_equity"
+                }
+            ],
+            "operating_revenue_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "operating_revenue_per_share"
+                }
+            ],
+            "annual_return_on_asset_net_profit": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "annual_return_on_asset_net_profit"
+                }
+            ],
+            "inc_profit_before_tax": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "inc_profit_before_tax"
+                }
+            ],
+            "invesment_profit_to_profit_before_tax": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "invesment_profit_to_profit_before_tax"
+                }
+            ],
+            "adjusted_profit_to_total_profit": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "adjusted_profit_to_total_profit"
+                }
+            ],
+            "non_operating_profit_to_profit_before_tax": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_operating_profit_to_profit_before_tax"
+                }
+            ],
+            "non_interest_bearing_current_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "non_interest_bearing_current_debt"
+                }
+            ],
+            "expense_to_revenue": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "expense_to_revenue"
+                }
+            ],
+            "operating_cash_flow_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "operating_cash_flow_per_share"
+                }
+            ],
+            "book_value_per_share": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "book_value_per_share"
+                }
+            ],
+            "du_equity_multiplier": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "du_equity_multiplier"
+                }
+            ],
+            "current_asset_to_total_asset": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "current_asset_to_total_asset"
+                }
+            ],
+            "current_ratio": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "current_ratio"
+                }
+            ],
+            "depreciation_and_amortization": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "depreciation_and_amortization"
+                }
+            ],
+            "account_payable_turnover_days": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "account_payable_turnover_days"
+                }
+            ],
+            "adjusted_return_on_equity_average": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "adjusted_return_on_equity_average"
+                }
+            ]
+        },
+        "cash_flow_statement": {
+            "cash_paid_for_other_operation_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_for_other_operation_activities"
+                }
+            ],
+            "cash_received_from_investment_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_investment_activities"
+                }
+            ],
+            "cash_paid_for_debt": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_for_debt"
+                }
+            ],
+            "cash_received_from_bond_issue": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_bond_issue"
+                }
+            ],
+            "cash_paid_for_asset": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_for_asset"
+                }
+            ],
+            "cash_received_from_return_of_investments": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_return_of_investments"
+                }
+            ],
+            "net_cash_paid_for_acquisition_of_subsidiaries": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "net_cash_paid_for_acquisition_of_subsidiaries"
+                }
+            ],
+            "cash_paid_for_taxes": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_for_taxes"
+                }
+            ],
+            "cash_received_from_minority_by_subsidiary": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_minority_by_subsidiary"
+                }
+            ],
+            "cash_from_operating_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_from_operating_activities"
+                }
+            ],
+            "cash_received_from_disposal_of_asset": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_disposal_of_asset"
+                }
+            ],
+            "cash_received_from_sales_of_goods": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_sales_of_goods"
+                }
+            ],
+            "cash_paid_to_financing_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_to_financing_activities"
+                }
+            ],
+            "cash_paid_for_other_financing_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_for_other_financing_activities"
+                }
+            ],
+            "cash_received_from_other_investment_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_other_investment_activities"
+                }
+            ],
+            "refunds_of_taxes": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "refunds_of_taxes"
+                }
+            ],
+            "cash_paid_to_acquire_investment": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_to_acquire_investment"
+                }
+            ],
+            "cash_paid_for_operation_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_for_operation_activities"
+                }
+            ],
+            "cash_flow_from_investing_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_flow_from_investing_activities"
+                }
+            ],
+            "cash_received_from_financial_institution_borrows": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_financial_institution_borrows"
+                }
+            ],
+            "cash_paid_for_employee": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_for_employee"
+                }
+            ],
+            "cash_received_from_financing_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_financing_activities"
+                }
+            ],
+            "sub_total_of_cash_outflows_from_investing_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "sub_total_of_cash_outflows_from_investing_activities"
+                }
+            ],
+            "wind_code": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "wind_code"
+                }
+            ],
+            "exchange_rate_effect_on_cash": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "exchange_rate_effect_on_cash"
+                }
+            ],
+            "cash_flow_from_financing_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_flow_from_financing_activities"
+                }
+            ],
+            "cash_flow_from_operating_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_flow_from_operating_activities"
+                }
+            ],
+            "cash_paid_for_dividend_and_interest": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_for_dividend_and_interest"
+                }
+            ],
+            "cash_received_from_investors": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_investors"
+                }
+            ],
+            "cash_received_from_disposal_of_investments": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_disposal_of_investments"
+                }
+            ],
+            "net_increase_in_cash_and_cash_equivalents": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "net_increase_in_cash_and_cash_equivalents"
+                }
+            ],
+            "net_cash_received_from_disposal_of_subsidiaries": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "net_cash_received_from_disposal_of_subsidiaries"
+                }
+            ],
+            "cash_received_from_other_financing_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_received_from_other_financing_activities"
+                }
+            ],
+            "cash_paid_for_goods_and_services": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_for_goods_and_services"
+                }
+            ],
+            "cash_paid_for_other_investment_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "cash_paid_for_other_investment_activities"
+                }
+            ],
+            "dividends_and_profits_paid_to_minority_subsidiaries": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "dividends_and_profits_paid_to_minority_subsidiaries"
+                }
+            ],
+            "other_cash_received_relating_to_operating_activities": [
+                {
+                    "retType": "",
+                    "type": "",
+                    "name": "other_cash_received_relating_to_operating_activities"
+                }
+            ]
+        },
+        "Position": {
+            "sold_value": [
+                {
+                    "name": "sold_value",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "total_trades": [
+                {
+                    "name": "total_trades",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "bought_value": [
+                {
+                    "name": "bought_value",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "total_orders": [
+                {
+                    "name": "total_orders",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "quantity": [
+                {
+                    "name": "quantity",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "bought_quantity": [
+                {
+                    "name": "bought_quantity",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "sold_quantity": [
+                {
+                    "name": "sold_quantity",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ]
+        },
+        "Security": {
+            "abbrev_symbol": [
+                {
+                    "name": "abbrev_symbol",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "listing": [
+                {
+                    "name": "listing",
+                    "retType": "bool",
+                    "type": "bool"
+                }
+            ],
+            "sector_code": [
+                {
+                    "name": "sector_code",
+                    "retType": "str",
+                    "type": "str"
+                }
+            ],
+            "type": [
+                {
+                    "name": "type",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "listed_date": [
+                {
+                    "name": "listed_date",
+                    "retType": "datetime",
+                    "type": "datetime"
+                }
+            ],
+            "round_lot": [
+                {
+                    "name": "round_lot",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "is_st": [
+                {
+                    "name": "is_st",
+                    "retType": "",
+                    "type": ""
+                }
+            ],
+            "sector_name": [
+                {
+                    "name": "sector_name",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "industry_code": [
+                {
+                    "name": "industry_code",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "industry_name": [
+                {
+                    "name": "industry_name",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "symbol": [
+                {
+                    "name": "symbol",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "order_book_id": [
+                {
+                    "name": "order_book_id",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ]
+        },
+        "Context": {
+            "portfolio": [
+                {
+                    "name": "portfolio",
+                    "retType": "Portfolio",
+                    "type": "Portfolio"
+                }
+            ],
+            "now": [
+                {
+                    "name": "now",
+                    "retType": "",
+                    "type": ""
+                }
+            ],
+            "allow_short": [
+                {
+                    "name": "allow_short",
+                    "retType": "",
+                    "type": ""
+                }
+            ],
+            "set_benchmark": [
+                {
+                    "name": "set_benchmark",
+                    "retType": "",
+                    "type": ""
+                }
+            ],
+            "set_commission": [
+                {
+                    "name": "set_commission",
+                    "retType": "",
+                    "type": ""
+                }
+            ],
+            "set_slippage": [
+                {
+                    "name": "set_slippage",
+                    "retType": "",
+                    "type": ""
+                }
+            ]
+        },
+        "Order": {
+            "order_id": [
+                {
+                    "name": "order_id",
+                    "retType": "int",
+                    "type": "int"
+                }
+            ],
+            "reject_reason": [
+                {
+                    "name": "reject_reason",
+                    "retType": "str",
+                    "type": "str"
+                }
+            ],
+            "quantity": [
+                {
+                    "name": "quantity",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ],
+            "instrument": [
+                {
+                    "name": "instrument",
+                    "retType": "Security",
+                    "type": "Security"
+                }
+            ],
+            "filled_shares": [
+                {
+                    "name": "filled_shares",
+                    "retType": "float",
+                    "type": "float"
+                }
+            ]
+        }
+    },
+    "nameTypeMap": {
+        "RuntimeError": "",
+        "OSError": "",
+        "hash": "",
+        "exit": "",
+        "True": "",
+        "frozenset": "",
+        "IsADirectoryError": "",
+        "repr": "",
+        "Exception": "",
+        "ConnectionResetError": "",
+        "round": "",
+        "async": "",
+        "ProcessLookupError": "",
+        "except": "",
+        "UnicodeWarning": "",
+        "global": "",
+        "ArithmeticError": "",
+        "ZeroDivisionError": "",
+        "FloatingPointError": "",
+        "setattr": "",
+        "context": "Context",
+        "FileExistsError": "",
+        "nonlocal": "",
+        "pow": "",
+        "def": "",
+        "FileNotFoundError": "",
+        "DeprecationWarning": "",
+        "KeyError": "",
+        "AttributeError": "",
+        "NotImplementedError": "",
+        "ascii": "",
+        "classmethod": "",
+        "BufferError": "",
+        "EOFError": "",
+        "ConnectionAbortedError": "",
+        "TimeoutError": "",
+        "str": "",
+        "yield": "",
+        "input": "",
+        "ConnectionError": "",
+        "Warning": "",
+        "del": "",
+        "AssertionError": "",
+        "in": "",
+        "isinstance": "",
+        "await": "",
+        "delattr": "",
+        "finally": "",
+        "MemoryError": "",
+        "SyntaxError": "",
+        "SyntaxWarning": "",
+        "dict": "",
+        "BaseException": "",
+        "bytes": "",
+        "assert": "",
+        "TabError": "",
+        "compile": "",
+        "copyright": "",
+        "with": "",
+        "OverflowError": "",
+        "NotADirectoryError": "",
+        "credits": "",
+        "class": "",
+        "len": "",
+        "bin": "",
+        "UnicodeTranslateError": "",
+        "ReferenceError": "",
+        "memoryview": "",
+        "object": "",
+        "ConnectionRefusedError": "",
+        "is": "",
+        "break": "",
+        "UnicodeError": "",
+        "range": "",
+        "sum": "",
+        "all": "",
+        "KeyboardInterrupt": "",
+        "vars": "",
+        "any": "",
+        "open": "",
+        "if": "",
+        "Ellipsis": "",
+        "PermissionError": "",
+        "bool": "",
+        "else": "",
+        "try": "",
+        "quit": "",
+        "iter": "",
+        "exec": "",
+        "issubclass": "",
+        "globals": "",
+        "hasattr": "",
+        "zip": "",
+        "license": "",
+        "complex": "",
+        "BytesWarning": "",
+        "UnboundLocalError": "",
+        "UserWarning": "",
+        "UnicodeEncodeError": "",
+        "chr": "",
+        "LookupError": "",
+        "callable": "",
+        "staticmethod": "",
+        "elif": "",
+        "abs": "",
+        "locals": "",
+        "dir": "",
+        "enumerate": "",
+        "ValueError": "",
+        "RuntimeWarning": "",
+        "GeneratorExit": "",
+        "and": "",
+        "for": "",
+        "or": "",
+        "max": "",
+        "while": "",
+        "ImportError": "",
+        "TypeError": "",
+        "type": "",
+        "SystemError": "",
+        "continue": "",
+        "as": "",
+        "PendingDeprecationWarning": "",
+        "int": "",
+        "None": "",
+        "IndentationError": "",
+        "FutureWarning": "",
+        "print": "",
+        "BrokenPipeError": "",
+        "EnvironmentError": "",
+        "IOError": "",
+        "raise": "",
+        "NameError": "",
+        "InterruptedError": "",
+        "ord": "",
+        "divmod": "",
+        "lambda": "",
+        "return": "",
+        "from": "",
+        "task": "Scheduler",
+        "hex": "",
+        "min": "",
+        "NotImplemented": "",
+        "ChildProcessError": "",
+        "format": "",
+        "not": "",
+        "StopIteration": "",
+        "list": "",
+        "float": "",
+        "set": "",
+        "ResourceWarning": "",
+        "SystemExit": "",
+        "getattr": "",
+        "UnicodeDecodeError": "",
+        "id": "",
+        "map": "",
+        "False": "",
+        "import": "",
+        "filter": "",
+        "tuple": "",
+        "sorted": "",
+        "bytearray": "",
+        "pass": "",
+        "oct": "",
+        "property": "",
+        "eval": "",
+        "BlockingIOError": "",
+        "next": "",
+        "super": "",
+        "fundamentals": "fundamentals",
+        "ImportWarning": "",
+        "slice": "",
+        "help": "",
+        "reversed": "",
+        "IndexError": ""
+    }
+}
